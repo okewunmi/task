@@ -1,5 +1,6 @@
 import "./App.css";
 import Card from "./components/card";
+import DetailedCard from "./components/detailed";
 import Header from "./components/header";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Card />
+      <DetailedCard />
     </div>
   );
 }

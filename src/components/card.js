@@ -20,12 +20,13 @@ const Card = () => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="w-80 h-96 bg-white flex-shrink-0 border-2 gap-2"
+            className="w-80 h-96 bg-white flex-shrink-0 border-2 gap-2 rounded-md shadow-lg"
           >
             <img
               src={`/images/img${index + 1}.jpg`}
               alt="bgs"
-              className="w-full h-[50%]"
+              className="w-full h-[50%] rounded-md"
+              loading="lazy"
             />
             <div className="p-4 flex-col justify-between">
               <p className="text-left text-lg font-semibold ">{item.name}</p>
