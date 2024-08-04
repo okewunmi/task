@@ -105,8 +105,8 @@ const DetailedCard = () => {
                 </span>
                 /week
               </p>
-              <p className="text-left text-zinc-500 text-sm md:text-base md:mt-24 font-mono">
-                Entire Price <span className="ml-14">${item.amount}</span>
+              <p className="text-left text-zinc-500 text-sm md:text-base mt-24 font-mono">
+                Entire Price <span className="ml-10">${item.amount}</span>
               </p>
               <button className="bg-amber-400 py-2 md:py-3 px-3 w-full font-bold mt-4 hover:opacity-70 rounded-md">
                 View rooms
